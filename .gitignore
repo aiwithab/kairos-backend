@@ -1,4 +1,50 @@
-.venv
-llama-3-8b
+# Byte-compiled / optimized / DLL files
+__pycache__/
 */__pycache__
-__pycache__
+*/*/__pycache__
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+
+# Environments
+.venv
+venv/
+env/
+*.env
+.python-version
+.idea/
+.vscode/
+
+# Editor/IDE specific
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Build artifacts
+dist/
+build/
+*.whl
+
+# Database files (e.g., SQLite)
+*.sqlite3
+db.sqlite3
+
+# Logs
+*.log
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Llama-specific (from original request)
+llama-3-8b

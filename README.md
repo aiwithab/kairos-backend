@@ -1,6 +1,6 @@
-# AI Career Coach
+# Kairos - AI Interview Prep Planner
 
-AI Career Coach is a FastAPI-based application that generates personalized career study plans using a local LLM (Ollama). It takes a job category, job description, and a timeline as input, and produces a structured study schedule with prioritized skills, topics, and study materials.
+Kairos - AI Interview Prep Planner is a FastAPI-based application that generates personalized career study plans using a local LLM (Ollama). It takes a job category, job description, and a timeline as input, and produces a structured study schedule with prioritized skills, topics, and study materials.
 
 ## Features
 
@@ -47,7 +47,7 @@ The application uses `pydantic-settings` for configuration. You can customize se
 
 | Variable | Default | Description |
 | :--- | :--- | :--- |
-| `PROJECT_NAME` | AI Career Coach | Name of the API project |
+| `PROJECT_NAME` | Kairos - AI Interview Prep Planner | Name of the API project |
 | `OLLAMA_MODEL` | gpt-oss:120b-cloud | The Ollama model tag to use |
 | `PROMPT_TEMPLATE_PATH` | resources/prompt_example.txt | Path to the prompt template file |
 
